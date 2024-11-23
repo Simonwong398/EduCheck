@@ -1,0 +1,36 @@
+{
+  "name": "smart-homework-mobile",
+  "version": "1.0.0",
+  "description": "智慧作业通移动端应用",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.66.0",
+    "react-native-camera": "^4.2.1",
+    "react-native-image-picker": "^4.0.6",
+    "react-navigation": "^4.4.4",
+    "redux": "^4.1.1",
+    "react-redux": "^7.2.5",
+    "@react-native-async-storage/async-storage": "^1.15.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.2.4",
+    "eslint": "^7.32.0",
+    "jest": "^27.2.4",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
