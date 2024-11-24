@@ -1,0 +1,27 @@
+{
+  "environment": "production",
+  "subscriptionTypes": {
+    "basic": {
+      "productId": "com.educheck.basic_subscription",
+      "price": 4.99,
+      "features": ["basic_access", "limited_analytics"]
+    },
+    "pro": {
+      "productId": "com.educheck.pro_subscription",
+      "price": 9.99,
+      "features": ["full_access", "advanced_analytics", "priority_support"]
+    },
+    "enterprise": {
+      "productId": "com.educheck.enterprise_subscription",
+      "price": 19.99,
+      "features": ["unlimited_access", "custom_reporting", "dedicated_support", "team_management"]
+    }
+  },
+  "renewalGracePeriod": 5,
+  "refundWindowDays": 14,
+  "notificationWebhookUrl": "https://api.educheck.com/webhooks/app-store",
+  "performanceMonitoring": {
+    "enabled": true,
+    "sampleRate": 0.1
+  }
+}

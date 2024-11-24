@@ -1,0 +1,32 @@
+{
+  "appStore": {
+    "subscriptionPlans": {
+      "basic": {
+        "name": "基础版",
+        "productId": "com.educheck.basic_subscription",
+        "price": 4.99,
+        "features": ["基础风险评估", "有限数据分析", "每月50次查询"]
+      },
+      "pro": {
+        "name": "专业版",
+        "productId": "com.educheck.pro_subscription",
+        "price": 9.99,
+        "features": ["全面风险评估", "高级数据分析", "无限查询", "优先支持"]
+      },
+      "enterprise": {
+        "name": "企业版",
+        "productId": "com.educheck.enterprise_subscription",
+        "price": 19.99,
+        "features": ["定制风险模型", "全面数据洞察", "团队管理", "专属技术支持", "合规性报告"]
+      }
+    },
+    "renewalSettings": {
+      "gracePeriodDays": 7,
+      "earlyRenewalReminderDays": 14
+    },
+    "discountRules": {
+      "annualDiscount": 0.2,
+      "referralBonus": 0.1
+    }
+  }
+}
