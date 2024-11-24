@@ -68,3 +68,4 @@ Thumbs.db
 *.pem
 *.key
 *.cert
+server/config/google-cloud-credentials.json
